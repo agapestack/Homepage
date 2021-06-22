@@ -1,6 +1,6 @@
 <template>
   <nav id="nav">
-    <particles-bg type="ball" :num="10" :bg="true"/>
+    <particles-bg type="circle" :num="3" :bg="true" />
     <div class="brand">
       <h1 style="color: #28a745 !important;">Agape</h1><h1 style="color: #007bff !important;">Stack</h1>
     </div>
