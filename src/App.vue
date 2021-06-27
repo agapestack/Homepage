@@ -1,23 +1,15 @@
 <template>
-  <div id="app">
-
-    <Navbar />
-
+  <div id="app">  
     <main>
-      <router-view/>
+      <router-view />
     </main>
-
   </div>
 </template>
 
 <script>
-import Navbar from './components/Navbar.vue'
 
 export default {
   name: 'App',
-  components: {
-    Navbar,
-  }
 }
 </script>
 
@@ -26,6 +18,16 @@ export default {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  background: #f2f7f5;
+  color: #475d5b;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  color: #475d5b;
+}
+
+main {
+  min-height: 100vh;
+}
 </style>
